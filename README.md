@@ -20,8 +20,15 @@ I turn equations and data into working models — from **physics-informed neural
 ### 📌 Featured projects
 | Project | Area | Highlights |
 |---|---|---|
-| [PINN for Burgers' equation](https://github.com/RafiUllah16/pinn-burgers-forward-inverse) | Scientific ML | Forward + inverse PINN, recovers unknown viscosity with 3.6% error |
-| *New projects added regularly* | ML · DL · Bioinformatics | |
+| [PINN for Burgers' equation](https://github.com/RafiUllah16/pinn-burgers-forward-inverse) | Scientific ML · PyTorch | Forward + inverse PINN, recovers unknown viscosity with 3.6% error |
+| [Airline forecasting: SARIMA vs LSTM](https://github.com/RafiUllah16/data-science-portfolio/blob/main/04_time_series.ipynb) | Time series · Deep learning | 24-month forecast, 8.5% vs 10.7% MAPE |
+| [Fashion-MNIST: MLP vs regularised CNN](https://github.com/RafiUllah16/data-science-portfolio/blob/main/05_fashion_cnn.ipynb) | Computer vision · PyTorch | BatchNorm, Dropout, augmentation, error analysis |
+| [Heart disease prediction](https://github.com/RafiUllah16/data-science-portfolio/blob/main/02_heart_disease.ipynb) | ML classification | ROC-AUC 0.90, recall 95%, permutation importance |
+| [Medical insurance cost prediction](https://github.com/RafiUllah16/data-science-portfolio/blob/main/03_insurance.ipynb) | ML regression | Engineered features beat ensembles, R² 0.91 |
+| [Google Play Store EDA](https://github.com/RafiUllah16/data-science-portfolio/blob/main/01_playstore_eda.ipynb) | Data analysis · statistics | Opportunity map, hypothesis testing |
+| [Overfitting & regularisation, visualised](https://github.com/RafiUllah16/data-science-portfolio/blob/main/06_overfitting.ipynb) | ML fundamentals | L2 / early stopping cut the train–test gap from 14.6 to 2.5 points |
+
+📚 Learning notebooks: [data-science-foundations](https://github.com/RafiUllah16/data-science-foundations) · [machine-learning-practice](https://github.com/RafiUllah16/machine-learning-practice) · [deep-learning-practice](https://github.com/RafiUllah16/deep-learning-practice)
 
 ### 📄 Publications
 - *Effects of Cattaneo–Christov Heat Flux on MHD Jeffrey Nanofluid Flow Past a Stretching Cylinder* — J. Magn. Magn. Mater. (2023)
