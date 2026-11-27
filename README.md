@@ -11,22 +11,29 @@ I turn equations and data into working models — from **physics-informed neural
 - **Scientific ML** — PINNs (forward & inverse problems), neural PDE solvers, reduced-order models (POD, DMD)
 - **Machine Learning & Data Science** — EDA, feature engineering, classification/regression, model evaluation
 - **Deep Learning** — CNNs, RNN/LSTM, image analysis
-- **Bioinformatics & Omics Data Analysis** — biological data analysis, molecular property prediction, statistics
+- **Bioinformatics, Cheminformatics & Biostatistics** — molecular property prediction (RDKit), survival analysis, biological data analysis
 - **Computational Fluid Dynamics** — OpenFOAM, ANSYS Fluent, COMSOL, heat & mass transfer, HPC on Linux
 
 ### 🛠 Tech stack
-`Python` `PyTorch` `scikit-learn` `pandas` `NumPy` `SciPy` `MATLAB` `C++` `SQL` `Git` `Linux/HPC` `OpenFOAM` `ANSYS Fluent` `COMSOL` `ParaView`
+`Python` `PyTorch` `scikit-learn` `RDKit` `lifelines` `pandas` `NumPy` `SciPy` `MATLAB` `C++` `SQL` `Git` `Linux/HPC` `OpenFOAM` `ANSYS Fluent` `COMSOL` `ParaView`
 
 ### 📌 Featured projects
 | Project | Area | Highlights |
 |---|---|---|
+| [Plant disease detection: ResNet-18 + Grad-CAM](https://github.com/RafiUllah16/data-science-portfolio/blob/main/07_plant_disease.ipynb) | Deep learning · computer vision | 98.8% test accuracy on 15 classes, explainable heat maps (GPU) |
+| [PINN inverse problem: graded material](https://github.com/RafiUllah16/data-science-portfolio/blob/main/08_pinn_heat_inverse.ipynb) | Scientific ML · inverse problems | Recovers an unknown conductivity law with <1% error from 320 noisy sensors |
 | [PINN for Burgers' equation](https://github.com/RafiUllah16/pinn-burgers-forward-inverse) | Scientific ML · PyTorch | Forward + inverse PINN, recovers unknown viscosity with 3.6% error |
-| [Airline forecasting: SARIMA vs LSTM](https://github.com/RafiUllah16/data-science-portfolio/blob/main/04_time_series.ipynb) | Time series · Deep learning | 24-month forecast, 8.5% vs 10.7% MAPE |
-| [Fashion-MNIST: MLP vs regularised CNN](https://github.com/RafiUllah16/data-science-portfolio/blob/main/05_fashion_cnn.ipynb) | Computer vision · PyTorch | BatchNorm, Dropout, augmentation, error analysis |
+| [Drug solubility prediction: RDKit + ML](https://github.com/RafiUllah16/data-science-portfolio/blob/main/11_esol_solubility.ipynb) | Cheminformatics | RMSE 0.60 (R² 0.92), beats the ESOL equation; scaffold-split evaluation |
+| [Survival analysis: Kaplan–Meier, Cox, Weibull](https://github.com/RafiUllah16/data-science-portfolio/blob/main/09_survival_analysis.ipynb) | Biostatistics | Hazard ratios, PH checks, C-index 0.70 on held-out patients |
+| [Customer churn: EDA to profit-optimised retention](https://github.com/RafiUllah16/data-science-portfolio/blob/main/10_telco_churn.ipynb) | Business analytics · ML | ROC-AUC 0.84; model-guided targeting ≈ 3× the profit of a blanket campaign |
+| [Airline forecasting: SARIMA vs LSTM](https://github.com/RafiUllah16/data-science-portfolio/blob/main/04_time_series.ipynb) | Time series · deep learning | 24-month forecast, 8.5% vs 10.7% MAPE |
+| [Fashion-MNIST: MLP vs regularised CNN](https://github.com/RafiUllah16/data-science-portfolio/blob/main/05_fashion_cnn.ipynb) | Computer vision · PyTorch | 93.9% accuracy, BatchNorm, Dropout, augmentation |
 | [Heart disease prediction](https://github.com/RafiUllah16/data-science-portfolio/blob/main/02_heart_disease.ipynb) | ML classification | ROC-AUC 0.90, recall 95%, permutation importance |
 | [Medical insurance cost prediction](https://github.com/RafiUllah16/data-science-portfolio/blob/main/03_insurance.ipynb) | ML regression | Engineered features beat ensembles, R² 0.91 |
 | [Google Play Store EDA](https://github.com/RafiUllah16/data-science-portfolio/blob/main/01_playstore_eda.ipynb) | Data analysis · statistics | Opportunity map, hypothesis testing |
 | [Overfitting & regularisation, visualised](https://github.com/RafiUllah16/data-science-portfolio/blob/main/06_overfitting.ipynb) | ML fundamentals | L2 / early stopping cut the train–test gap from 14.6 to 2.5 points |
+
+➡️ All notebooks with full outputs: [data-science-portfolio](https://github.com/RafiUllah16/data-science-portfolio) · [Kaggle notebooks](https://www.kaggle.com/raffiiullah/code)
 
 📚 Learning notebooks: [data-science-foundations](https://github.com/RafiUllah16/data-science-foundations) · [machine-learning-practice](https://github.com/RafiUllah16/machine-learning-practice) · [deep-learning-practice](https://github.com/RafiUllah16/deep-learning-practice)
 
