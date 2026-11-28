@@ -8,11 +8,11 @@ I turn equations and data into working models — from **physics-informed neural
 ---
 
 ### 🔬 What I work on
-- **Scientific ML** — PINNs (forward & inverse problems), neural PDE solvers, reduced-order models (POD, DMD)
+- **Scientific ML** — PINNs (forward & inverse problems), Fourier neural operators, reduced-order models (POD, DMD), sparse sensing
 - **Machine Learning & Data Science** — EDA, feature engineering, classification/regression, model evaluation
 - **Deep Learning** — CNNs, RNN/LSTM, image analysis
-- **Bioinformatics, Cheminformatics & Biostatistics** — molecular property prediction (RDKit), survival analysis, biological data analysis
-- **Computational Fluid Dynamics** — OpenFOAM, ANSYS Fluent, COMSOL, heat & mass transfer, HPC on Linux
+- **Bioinformatics, Cheminformatics & Biostatistics** — DNA sequence models (CNNs, motif discovery, in-silico mutagenesis), molecular property prediction (RDKit), survival analysis
+- **Computational Fluid Dynamics** — lattice-Boltzmann (own GPU solver in PyTorch), OpenFOAM, ANSYS Fluent, COMSOL, heat & mass transfer, HPC on Linux
 
 ### 🛠 Tech stack
 `Python` `PyTorch` `scikit-learn` `RDKit` `lifelines` `pandas` `NumPy` `SciPy` `MATLAB` `C++` `SQL` `Git` `Linux/HPC` `OpenFOAM` `ANSYS Fluent` `COMSOL` `ParaView`
@@ -20,6 +20,9 @@ I turn equations and data into working models — from **physics-informed neural
 ### 📌 Featured projects
 | Project | Area | Highlights |
 |---|---|---|
+| [Cylinder wake from scratch: LBM CFD → POD → DMD → sparse sensing](https://github.com/RafiUllah16/data-science-portfolio/blob/main/12_cylinder_wake_rom.ipynb) | CFD · reduced-order modelling | Own lattice-Boltzmann solver, wake in 6 POD modes, full field rebuilt from 8 smart sensors |
+| [Neural operator vs CNN: learning a PDE solver](https://github.com/RafiUllah16/data-science-portfolio/blob/main/13_neural_operator_diffusion.ipynb) | Scientific ML · neural operators | Fourier Neural Operator generalises zero-shot to finer grids (5.8% vs 38% error) |
+| [Can a CNN learn DNA "grammar"?](https://github.com/RafiUllah16/data-science-portfolio/blob/main/14_dna_regulatory_grammar.ipynb) | Bioinformatics · deep learning | CNN learns motif-spacing rules a k-mer model cannot (AUC 0.87 vs 0.67), verified with in-silico mutagenesis |
 | [Plant disease detection: ResNet-18 + Grad-CAM](https://github.com/RafiUllah16/data-science-portfolio/blob/main/07_plant_disease.ipynb) | Deep learning · computer vision | 98.8% test accuracy on 15 classes, explainable heat maps (GPU) |
 | [PINN inverse problem: graded material](https://github.com/RafiUllah16/data-science-portfolio/blob/main/08_pinn_heat_inverse.ipynb) | Scientific ML · inverse problems | Recovers an unknown conductivity law with <1% error from 320 noisy sensors |
 | [PINN for Burgers' equation](https://github.com/RafiUllah16/pinn-burgers-forward-inverse) | Scientific ML · PyTorch | Forward + inverse PINN, recovers unknown viscosity with 3.6% error |
