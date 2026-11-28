@@ -9,17 +9,18 @@ I turn equations and data into working models — from **physics-informed neural
 
 ### 🔬 What I work on
 - **Scientific ML** — PINNs (forward & inverse problems), Fourier neural operators, reduced-order models (POD, DMD), sparse sensing
-- **Machine Learning & Data Science** — EDA, feature engineering, classification/regression, model evaluation
+- **Machine Learning & Data Science** — EDA, feature engineering, gradient boosting (LightGBM/XGBoost/CatBoost), model evaluation, Kaggle competitions
 - **Deep Learning** — CNNs, RNN/LSTM, image analysis
 - **Bioinformatics, Cheminformatics & Biostatistics** — DNA sequence models (CNNs, motif discovery, in-silico mutagenesis), molecular property prediction (RDKit), survival analysis
 - **Computational Fluid Dynamics** — lattice-Boltzmann (own GPU solver in PyTorch), OpenFOAM, ANSYS Fluent, COMSOL, heat & mass transfer, HPC on Linux
 
 ### 🛠 Tech stack
-`Python` `PyTorch` `scikit-learn` `RDKit` `lifelines` `pandas` `NumPy` `SciPy` `MATLAB` `C++` `SQL` `Git` `Linux/HPC` `OpenFOAM` `ANSYS Fluent` `COMSOL` `ParaView`
+`Python` `PyTorch` `scikit-learn` `LightGBM` `XGBoost` `CatBoost` `RDKit` `lifelines` `pandas` `NumPy` `SciPy` `MATLAB` `C++` `SQL` `Git` `Linux/HPC` `OpenFOAM` `ANSYS Fluent` `COMSOL` `ParaView`
 
 ### 📌 Featured projects
 | Project | Area | Highlights |
 |---|---|---|
+| [Credit card fraud — Kaggle Playground S6E11](https://www.kaggle.com/code/raffiiullah/s6e11-fraud-lgbm-xgb-catboost-rank-blend) | Kaggle competition · ML | LightGBM + XGBoost + CatBoost rank blend on GPU, public leaderboard ROC-AUC 0.947 |
 | [Cylinder wake from scratch: LBM CFD → POD → DMD → sparse sensing](https://github.com/RafiUllah16/data-science-portfolio/blob/main/12_cylinder_wake_rom.ipynb) | CFD · reduced-order modelling | Own lattice-Boltzmann solver, wake in 6 POD modes, full field rebuilt from 8 smart sensors |
 | [Neural operator vs CNN: learning a PDE solver](https://github.com/RafiUllah16/data-science-portfolio/blob/main/13_neural_operator_diffusion.ipynb) | Scientific ML · neural operators | Fourier Neural Operator generalises zero-shot to finer grids (5.8% vs 38% error) |
 | [Can a CNN learn DNA "grammar"?](https://github.com/RafiUllah16/data-science-portfolio/blob/main/14_dna_regulatory_grammar.ipynb) | Bioinformatics · deep learning | CNN learns motif-spacing rules a k-mer model cannot (AUC 0.87 vs 0.67), verified with in-silico mutagenesis |
